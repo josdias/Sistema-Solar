@@ -1,0 +1,38 @@
+footer{
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background: var(--preto-acinzentado);
+    border-radius: 16px 16px 0 0;
+    bottom: 0;
+    position: fixed;
+    width: 100vw;
+}
+
+.lista-imagem{
+    display: flex;
+    width: 30px;
+    opacity: 65%;
+}
+
+.ativo{
+    opacity: 100%;
+    padding-bottom: 8px;
+}
+
+
+.menu-link{
+    font-size: 12px;
+    color: var(--branco);
+}
+
+.container-menu{
+    height: 70px;
+}

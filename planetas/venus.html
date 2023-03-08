@@ -1,0 +1,148 @@
+<!--
+Este layout foi baseado em Solar System.
+URL do projeto: https://www.figma.com/community/file/871911270417939544
+URL do Perfil no Figma: https://www.figma.com/@umpontoseis
+URL do Instagram: https://www.instagram.com/umpontoseisig
+URL do Figma dos Designers do projeto: https://www.figma.com/@filipeedr / https://www.figma.com/@flaviofpsj / https://www.figma.com/@jonasmilan
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vênus</title>
+    <link rel="icon" type="image/png" href="../src/image/planetas/Venus.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../src/css/reset.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="fundo background-planetas">
+        <header>
+            <div class="container-cabecalho container-planetas">
+                <div class="configuracao">
+                    <img src="../src/buttons/regular/Back.svg">
+                    <img src="../src/buttons/regular/Settings.svg" class="icone-configuracao">
+                </div>
+                <div class="container-planetas">
+                    <img src="../src/image/planetas/Venus.svg" class="planeta venus">
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="cabecalho-meio">
+                <h2 class="texto-planeta">Vênus</h2>
+                <div class="icones">
+                    <img src="../src/buttons/regular/Save3.svg">
+                    <img src="../src/buttons/regular/Vector3.svg" alt="">
+                </div>
+            </div>
+            <p class="descricao">
+                Vénus ou Vênus é o segundo planeta do Sistema Solar em ordem de distância a partir do Sol, orbitando-o a
+                cada 224,7 dias. Recebeu seu nome em homenagem à deusa romana do amor e da beleza Vénus, equivalente a
+                Afrodite
+            </p>
+            <div class="menu-conteudo">
+                <div class="conteudo-planeta">
+                    <input type="checkbox" id="introducao" class="botao-opcoes">
+                    <label for="introducao" class="opcoes-rotulo">
+                        <div>
+                            <img src="../src/buttons/regular/Down.svg" alt="" class="conteudo-planeta__imagem">
+                            <p class="box-descricao">
+                                Introdução
+                            </p>
+                        </div>
+                    </label>
+                    <p class="lista-descricao">
+                        Também chamado de Estrela Dalva, estrela da manhã, estrela da tarde e joia do céu, é considerado
+                        um planeta irmão da Terra. Isso decorre em virtude das similaridades de massa, densidade e
+                        volume entre ambos.
+                    </p>
+                </div>
+                <hr>
+                <div class="conteudo-planeta">
+                    <input type="checkbox" id="caracteristicas" class="botao-opcoes">
+                    <label for="caracteristicas" class="opcoes-rotulo">
+                        <div>
+                            <img src="../src/buttons/regular/Down.svg" alt="" class="conteudo-planeta__imagem">
+                            <p class="box-descricao">
+                                Características Físicas
+                            </p>
+                        </div>
+                    </label>
+                    <p class="lista-descricao">
+                        Vênus tem 12.104 km de diâmetro, ou seja, seu raio equivale a 6.052 km. A sua superfície é
+                        coberta de lava e composta principalmente de dióxido de carbono e ácido sulfúrico, os quais
+                        formam nuvens densas responsáveis pelo fenômeno de efeito estufa.
+                    </p>
+                </div>
+                <hr>
+                <div class="conteudo-planeta">
+                    <input type="checkbox" id="hidrologia" class="botao-opcoes">
+                    <label for="hidrologia" class="opcoes-rotulo">
+                        <div>
+                            <img src="../src/buttons/regular/Down.svg" alt="" class="conteudo-planeta__imagem">
+                            <p class="box-descricao">
+                                Hidrologia
+                            </p>
+                        </div>
+                    </label>
+                    <p class="lista-descricao">
+                        Segundo os cientistas, se Vênus já teve água, as condições infernais do planeta (sua superfície
+                        tem temperatura média de 482°C) fariam com que o líquido virasse vapor. Porém as simulações
+                        apontaram que isso nunca ocorreu: o vapor nunca se condensou na atmosfera a ponto de formar
+                        gotas de chuva e formar oceanos.
+                    </p>
+                </div>
+                <hr>
+                <div class="conteudo-planeta">
+                    <input type="checkbox" id="geografia" class="botao-opcoes">
+                    <label for="geografia" class="opcoes-rotulo">
+                        <div>
+                            <img src="../src/buttons/regular/Down.svg" alt="" class="conteudo-planeta__imagem">
+                            <p class="box-descricao">
+                                Geografia
+                            </p>
+                        </div>
+                    </label>
+                    <p class="lista-descricao">
+                        Rotação: - 243 dias.<br>
+                        Translação: 224 dias.<br>
+                        Diâmetro: 12 102 quilômetros.<br>
+                        Temperatura máxima: 482ºC.<br>
+                        Pressão atmosférica: 92 milibars.<br>
+                        Lua: nenhuma.
+                    </p>
+                </div>
+
+            </div>
+
+        </main>
+        <footer>
+            <div class="container-menu">
+                <ul class="menu">
+                    <li class="lista-menu"><a href="../pages/homepage.html" class="menu-link"><img
+                                src="../src/buttons/regular/Home.svg" class="lista-imagem"></a></li>
+                    <li class="lista-menu"><a href="../pages/buscar.html" class="menu-link"><img
+                                src="../src/buttons/regular/Search.svg" class="lista-imagem ativo">Buscar</a></li>
+                    <li class="lista-menu"><a href="#" class="menu-link"><img src="../src/buttons/regular/Save.svg"
+                                class="lista-imagem"></a></li>
+                    <li class="lista-menu"><a href="#" class="menu-link"><img src="../src/buttons/regular/Gallery.svg"
+                                class="lista-imagem"></a></li>
+
+                </ul>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script src="../src/js/carrosel.js"></script>
+    </div>
+</body>
+
+</html>

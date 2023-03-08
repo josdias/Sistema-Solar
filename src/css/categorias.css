@@ -1,0 +1,51 @@
+.categorias{margin-top: 48px;
+    padding-bottom: 48px;
+}
+.texto-categoria{
+    color: var(--branco);
+    margin-left: 30px;
+    padding-bottom: 24px;
+}
+
+.menu-categoria{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.menu-categoria__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: var(--branco);
+}
+
+.lista-categorias{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.categoria-imagem{
+    padding-bottom: 8px;
+}
+
+.planetas{
+    background: var(--azul-gradiente);
+}
+
+.asteroides{
+    background: var(--rosa-gradiente);
+}
+
+.estrelas{
+    background: var(--ciano-gradiente);
+}
+
+.galaxias{
+    background: var(--amarelo-gradiente);
+}

@@ -1,0 +1,97 @@
+<!--
+Este layout foi baseado em Solar System.
+URL do projeto: https://www.figma.com/community/file/871911270417939544
+URL do Perfil no Figma: https://www.figma.com/@umpontoseis
+URL do Instagram: https://www.instagram.com/umpontoseisig
+URL do Figma dos Designers do projeto: https://www.figma.com/@filipeedr / https://www.figma.com/@flaviofpsj / https://www.figma.com/@jonasmilan
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../src/css/reset.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="fundo homepage">
+    <header>
+        <div class="container-cabecalho buscar">
+            <div class="configuracao">
+                <img src="../src/buttons/regular/Back.svg">
+                <img src="../src/buttons/regular/Settings.svg" class="icone-configuracao">
+            </div>
+            <div>
+                <h2 class="texto">Resultado da Busca</h2>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="search">
+            <input type="search" class="input-search" placeholder="Procure planetas, asteroides, estrelas...">
+        </div>
+        <div class="container-card">
+            <a href="/planetas/netuno.html" class="card-link">
+                <img src="../src/image/planetas/Neptune.svg" class="card-imagem">
+                <div class="card">
+                    <div class="card-nome">
+                        <h2 class="card-texto">Neturno</h2>
+                        <img src="../src/buttons/regular/Save2.svg" class="card-icone__save">
+                    </div>
+                    <p class="card-paragrafo">Netuno é o oitavo planeta do Sistema Solar, o último a partir do Sol desde
+                        a reclassificação...</p>
+                    <div class="card-nome ajuste">
+                        <p class="carrosel-texto">Continue lendo</p>
+                        <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
+                    </div>
+                </div>
+            </a>
+        </div>
+        <h3 class="texto-divisoria">Você também pode gostar</h3>
+        <div class="container-card sugestao">
+            <a href="/planetas/marte.html" class="card-link">
+                <img src="../src/image/planetas/Mars.svg" class="card-imagem">
+                <div class="card">
+                    <div class="card-nome">
+                        <h2 class="card-texto">Marte</h2>
+                        <img src="../src/buttons/regular/Saved.svg" class="card-icone__save salvo">
+                    </div>
+                    <p class="card-paragrafo">Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema
+                        Solar. Batizado em homena...</p>
+                    <div class="card-nome ajuste">
+                        <p class="carrosel-texto">Continue lendo</p>
+                        <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
+                    </div>
+                </div>
+            </a>
+        </div>
+    </main>
+    <footer>
+        <div class="container-menu">
+            <ul class="menu">
+                <li class="lista-menu"><a href="homepage.html" class="menu-link"><img src="../src/buttons/regular/Home.svg"
+                            class="lista-imagem"></a></li>
+                <li class="lista-menu"><a href="#" class="menu-link"><img src="../src/buttons/regular/Search.svg"
+                            class="lista-imagem ativo">Buscar</a></li>
+                <li class="lista-menu"><a href="#" class="menu-link"><img src="../src/buttons/regular/Save.svg"
+                            class="lista-imagem"></a></li>
+                <li class="lista-menu"><a href="#" class="menu-link"><img src="../src/buttons/regular/Gallery.svg"
+                            class="lista-imagem"></a></li>
+
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../src/js/carrosel.js"></script>
+</body>
+
+</html>

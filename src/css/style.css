@@ -1,0 +1,56 @@
+@import url("inicio.css");
+@import url("header.css");
+@import url("categorias.css");
+@import url("carrosel.css");
+@import url("planetas.css");
+@import url("card.css");
+@import url("sugestoes.css");
+@import url("apresentacao.css");
+@import url("footer.css");
+
+:root{
+
+    --font-principal: 'Roboto', sans-serif;
+    
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --preto-acinzentado: #151515;
+
+    --coral-gradiente: linear-gradient(90deg, #EF5F53 0%, #FA8F70 100%);
+    --azul-gradiente: linear-gradient(180deg, #5935FF 0%, #47408E 100%);
+    --rosa-gradiente: linear-gradient(180deg, #FF6CD9 0%, #FF2184 100%);
+    --ciano-gradiente: linear-gradient(180deg, #01D4E4 0%, #009DE0 100%);
+    --amarelo-gradiente: linear-gradient(180deg, #F9C270 0%, #FFAA2B 100%);
+}
+.fundo{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: var(--preto);
+    font-family: var(--font-principal);
+
+    width: 415px;
+    height: 890px;
+   
+}
+.inicio{
+    background-image: url("../image/Background.svg");
+}
+
+
+.homepage{
+    background-image: url("../image/Background_2.svg");
+}
+
+.background-planetas{
+    background-image: url("../image/Background_2.svg");
+    height: 280px;
+    border-radius: 0 0 32px 32px;
+}
+
+html{
+    background-color: var(---branco);
+}
+
+body{
+    height: 100vh;
+}

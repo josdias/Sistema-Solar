@@ -1,0 +1,38 @@
+.secao-planetas{
+    padding-top: 48px;
+}
+
+.texto-planetas{
+    position: relative;
+    color: var(--branco);
+    left: 30px;
+    padding-bottom: 24px;
+}
+
+.menu-planetas{
+    display: flex;
+    width: 414px;
+}
+
+.lista-planetas{
+    width: 140px;
+    height: 190px;
+    background: var(--preto-acinzentado);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.menu-planetas__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: var(--branco);
+}
+
+
+.planetas-imagem {
+    width: 40%;
+}

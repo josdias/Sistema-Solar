@@ -1,0 +1,120 @@
+.planeta{
+    width: 280px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.marte {
+    box-shadow: 0px 12px 12px rgb(249 133 0 / 25%);
+}
+
+.mercurio{
+    box-shadow: 0px 12px 12px rgb(111 136 163 /25%);
+}
+
+.venus{
+    box-shadow: 0 12px 12px rgb(255 208 166 /30%);
+    
+}
+
+.terra{
+    box-shadow: 0 12px 12px rgb(127 200 239 /25%);
+}
+
+.jupiter{
+    box-shadow: 0 12px 12px rgb(186 152 211 /25%);
+}
+
+.neturno{
+    box-shadow: 0 12px 12px rgb(132 135 178 / 25%) ;
+}
+
+.plutao{
+    box-shadow: 0 12px 12px rgb(86 206 227 / 25%);
+}
+
+.saturno{
+    height: 140px;
+    object-position: -100px -22px;
+}
+
+.urano{
+    box-shadow: 0 12px 12px rgb(113 255 251 / 25%);
+}
+
+.container-planetas{
+    display: flex;
+    flex-direction: column;
+}
+
+.texto-planeta{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.cabecalho-meio{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 24px 20px 0 20px;
+}
+
+.icones{
+    width: 61px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.descricao{
+    margin: 40px 20px 0 20px;
+    opacity: 75%;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu-conteudo{
+    margin-top: 40px;
+}
+
+hr{
+    margin: 20px;
+    opacity: 15%;
+}
+
+.conteudo-planeta:last-child{
+    margin-bottom: 40px;
+}
+
+.conteudo-planeta__imagem{
+    margin-left: 20px;
+    padding-right: 16px;
+}
+
+.lista-descricao{
+    display: none;
+    margin: 10px 20px 0 20px;
+    opacity: 75%;
+    transition: all 1s ease-in-out;
+}
+
+.botao-opcoes:checked ~ .lista-descricao{
+    display: block;
+}
+
+.botao-opcoes{
+    display: none;
+}
+
+.conteudo-planeta__imagem  #text{
+    font-size: 20px;
+}
+
+.opcoes-rotulo div{
+    display: flex;
+}
+
+.box-descricao{
+    font-size: 16px;
+    font-weight: 700;
+}
