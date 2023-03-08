@@ -1,13 +1,9 @@
 .container-card{
-    margin: 40px 0 0 20px;
+    margin: 20px 0 0 20px;
     background-color: var(--preto-acinzentado);
-    width: 374px !important;
+    width: 374px;
     height: 200px;
     border-radius: 8px;
-}
-
-.sugestao{
-    margin-top: 24px;
 }
 
 .card{
@@ -58,4 +54,16 @@
 
 .card-icone__save{
     width: 24px;
+}
+
+@media screen and (max-width: 410px)  {
+    .container-card
+    {margin: 40px 10px 0 10px}
+
+}
+
+@media screen and (min-width: 1024px){
+    .sugestao{
+        display: flex;
+    }
 }

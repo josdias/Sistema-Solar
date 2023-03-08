@@ -13,7 +13,7 @@ URL do Figma dos Designers do projeto: https://www.figma.com/@filipeedr / https:
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomePage</title>
+    <title>Buscar</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="../src/css/reset.css">
     <link rel="stylesheet" href="../src/css/style.css">
@@ -24,9 +24,9 @@ URL do Figma dos Designers do projeto: https://www.figma.com/@filipeedr / https:
 
 <body class="fundo homepage">
     <header>
-        <div class="container-cabecalho buscar">
+        <div class="cabecalho buscar">
             <div class="configuracao">
-                <img src="../src/buttons/regular/Back.svg">
+                <img src="../src/buttons/regular/Back.svg" id="voltar">
                 <img src="../src/buttons/regular/Settings.svg" class="icone-configuracao">
             </div>
             <div>
@@ -36,8 +36,10 @@ URL do Figma dos Designers do projeto: https://www.figma.com/@filipeedr / https:
     </header>
     <main>
         <div class="search">
-            <input type="search" class="input-search" placeholder="Procure planetas, asteroides, estrelas...">
+            <input type="search" class="input-search" placeholder="Neturno">
         </div>
+
+        <h3 class="texto-divisoria">Resultado da Busca</h3>
         <div class="container-card">
             <a href="../planetas/netuno.html" class="card-link">
                 <img src="../src/image/planetas/Neptune.svg" class="card-imagem">
@@ -56,38 +58,89 @@ URL do Figma dos Designers do projeto: https://www.figma.com/@filipeedr / https:
             </a>
         </div>
         <h3 class="texto-divisoria">Você também pode gostar</h3>
-        <div class="container-card sugestao">
-            <a href="../planetas/marte.html" class="card-link">
-                <img src="../src/image/planetas/Mars.svg" class="card-imagem">
-                <div class="card">
-                    <div class="card-nome">
-                        <h2 class="card-texto">Marte</h2>
-                        <img src="../src/buttons/regular/Saved.svg" class="card-icone__save salvo">
+        <div class="sugestao">
+            <div class="container-card">
+                <a href="../planetas/marte.html" class="card-link">
+                    <img src="../src/image/planetas/Mars.svg" class="card-imagem">
+                    <div class="card">
+                        <div class="card-nome">
+                            <h2 class="card-texto">Marte</h2>
+                            <img src="../src/buttons/regular/Saved.svg" class="card-icone__save salvo">
+                        </div>
+                        <p class="card-paragrafo">Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema
+                            Solar. Batizado em homena...</p>
+                        <div class="card-nome ajuste">
+                            <p class="carrosel-texto">Continue lendo</p>
+                            <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
+                        </div>
                     </div>
-                    <p class="card-paragrafo">Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema
-                        Solar. Batizado em homena...</p>
-                    <div class="card-nome ajuste">
-                        <p class="carrosel-texto">Continue lendo</p>
-                        <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
+                </a>
+            </div>
+            <div class="container-card">
+                <a href="../planetas/sol.html" class="card-link">
+                    <img src="../src/image/planetas/Sun.svg" class="card-imagem">
+                    <div class="card">
+                        <div class="card-nome">
+                            <h2 class="card-texto">Sol</h2>
+                            <img src="../src/buttons/regular/Save2.svg" class="card-icone__save salvo">
+                        </div>
+                        <p class="card-paragrafo">O Sol é uma estrela anã amarela que os demais corpos celestes do
+                            Sistema Solar orbitam. Ele é formado
+                            por gases e...</p>
+                        <div class="card-nome ajuste">
+                            <p class="carrosel-texto">Continue lendo</p>
+                            <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a>
+            </div>
+            <div class="container-card sugestao">
+                <a href="../planetas/plutao.html" class="card-link">
+                    <img src="../src/image/planetas/Pluto.svg" class="card-imagem">
+                    <div class="card">
+                        <div class="card-nome">
+                            <h2 class="card-texto">Plutão</h2>
+                            <img src="../src/buttons/regular/Save2.svg" class="card-icone__save salvo">
+                        </div>
+                        <p class="card-paragrafo">Plutão, formalmente designado 134340 Plutão é um planeta anão do
+                            Sistema Solar e o nono maior e décimo
+                            mais...</p>
+                        <div class="card-nome ajuste">
+                            <p class="carrosel-texto">Continue lendo</p>
+                            <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </main>
-    <footer>
-        <div class="container-menu">
-            <ul class="menu">
-                <li class="lista-menu"><a href="homepage.html" class="menu-link"><img src="../src/buttons/regular/Home.svg"
-                            class="lista-imagem"></a></li>
-                <li class="lista-menu"><a href="#" class="menu-link"><img src="../src/buttons/regular/Search.svg"
-                            class="lista-imagem ativo">Buscar</a></li>
-                <li class="lista-menu"><a href="#" class="menu-link"><img src="../src/buttons/regular/Save.svg"
-                            class="lista-imagem"></a></li>
-                <li class="lista-menu"><a href="#" class="menu-link"><img src="../src/buttons/regular/Gallery.svg"
-                            class="lista-imagem"></a></li>
 
+    <footer>
+        <footer>
+            <ul class="menu">
+                <li class="lista-menu">
+                    <a href="homepage.html" class="menu-link">
+                        <img src="../src/buttons/regular/Home.svg" class="lista-imagem">
+                    </a>
+                </li>
+                <li class="lista-menu">
+                    <a href="buscar.html" class="menu-link">
+                        <img src="../src/buttons/regular/Search.svg" class="lista-imagem ativo">
+                        <p>Buscar</p>
+                    </a>
+                </li>
+                <li class="lista-menu">
+                    <a href="#" class="menu-link">
+                        <img src="../src/buttons/regular/Save.svg" class="lista-imagem">
+                    </a>
+                </li>
+                <li class="lista-menu">
+                    <a href="#" class="menu-link">
+                        <img src="../src/buttons/regular/Gallery.svg" class="lista-imagem">
+                    </a>
+                </li>
             </ul>
-        </div>
+        </footer>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

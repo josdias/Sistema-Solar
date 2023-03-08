@@ -1,0 +1,35 @@
+.search{
+    margin: 56px 16px 0 16px;
+}
+
+.input-search{
+    width: 100%;
+    background: var(--preto-acinzentado);
+    color: var(--branco);
+    padding: 16px 0;
+
+    font-size: 14px;
+    font-weight: 400;
+
+    border-radius: 8px;
+    border-width: 0;
+}
+
+.input-search::placeholder{
+    font-family: var(--font-principal);
+    text-align: center;
+    background: url(../buttons/regular/Search.svg) no-repeat;
+    background-position: 2em;
+}
+
+
+.buscar{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 390px)  {
+    .input-search::placeholder{
+        background: none;
+    }
+}

@@ -23,31 +23,43 @@ URL do Figma dos Designers do projeto: https://www.figma.com/@filipeedr / https:
 
 <body class="fundo homepage">
     <header>
-        <div class="container-cabecalho">
-            <div class="container-principal">
-                <h2 class="texto-inicio">Olá, <i class="texto-header">José Dias</i></h2>
+        <div class="cabecalho">
+            <div class="principal">
+                <h2 class="texto-inicio">Olá, <i class="texto-header">Visitante</i></h2>
                 <p class="paragrafo-principal">O que você vai aprender hoje?</p>
             </div>
-            <div class="container-configuracao">
-                <img src="../src/buttons/regular/Settings.svg" class="inicio-configuracao">
-            </div>
+            <img src="../src/buttons/regular/Settings.svg" class="inicio-configuracao">
         </div>
     </header>
     <main>
         <div class="search">
             <input type="search" class="input-search" placeholder="Procure planetas, asteroides, estrelas...">
         </div>
+
         <div class="categorias">
-            <h2 class="texto-categoria">Categorias</h2>
-            <ul class="menu-categoria">
-                <li class="lista-categorias planetas"><a href="#" class="menu-categoria__link"><img
-                            src="../src/buttons/solid/Planets.svg" alt="" class="categoria-imagem">Planetas</a></li>
-                <li class="lista-categorias asteroides"><a href="#" class="menu-categoria__link"><img
-                            src="../src/buttons/solid/Asteroids.svg" alt="" class="categoria-imagem">Asteróides</a></li>
-                <li class="lista-categorias estrelas"><a href="#" class="menu-categoria__link"><img
-                            src="../src/buttons/solid/Stars.svg" alt="" class="categoria-imagem">Estrelas</a></li>
-                <li class="lista-categorias galaxias"><a href="#" class="menu-categoria__link"><img
-                            src="../src/buttons/solid/Galaxies.svg" alt="" class="categoria-imagem">Galáxias</a></li>
+            <h2 class="categoria-cabecalho">Categorias</h2>
+            <ul class="categoria-menu">
+                <li class="categorias-lista planetas"><a href="#" class="menu-categoria__link"><img
+                            src="../src/buttons/solid/Planets.svg" alt="" class="categoria-imagem">
+                        <p>Planetas</p>
+                    </a>
+                </li>
+                <li class="categorias-lista asteroides"><a href="#" class="menu-categoria__link"><img
+                            src="../src/buttons/solid/Asteroids.svg" alt="" class="categoria-imagem">
+                        <p>Asteróides</p>
+                    </a>
+
+                </li>
+                <li class="categorias-lista estrelas"><a href="#" class="menu-categoria__link"><img
+                            src="../src/buttons/solid/Stars.svg" alt="" class="categoria-imagem">
+                        <p>Estrelas</p>
+                    </a>
+                </li>
+                <li class="categorias-lista galaxias"><a href="#" class="menu-categoria__link"><img
+                            src="../src/buttons/solid/Galaxies.svg" alt="" class="categoria-imagem">
+                        <p>Galáxias</p>
+                    </a>
+                </li>
             </ul>
         </div>
         <div class="carrosel">
@@ -57,109 +69,120 @@ URL do Figma dos Designers do projeto: https://www.figma.com/@filipeedr / https:
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                        <div class="swiper-slide"><img src="../src/image/planetas/Sun.svg" class="carrosel-posicao">
-                            <a href="../planetas/sol.html">
-                                <div class="carrosel-card">
-                                    <p class="carrosel-texto">Sol</p>
-                                    <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
-                                </div>
-                            </a>
+                    <div class="swiper-slide"><img src="../src/image/planetas/Sun.svg" class="carrosel-posicao">
+                        <a href="../planetas/sol.html">
+                            <div class="carrosel-card">
+                                <p class="carrosel-texto">Sol</p>
+                                <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><img src="../src/image/planetas/Mercury.svg" class="carrosel-posicao">
+                        <a href="../planetas/mercurio.html">
+                            <div class="carrosel-card">
+                                <p class="carrosel-texto">Mercúrio</p>
+                                <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><img src="../src/image/planetas/Venus.svg" class="carrosel-posicao">
+                        <a href="../planetas/venus.html">
+                            <div class="carrosel-card">
+                                <p class="carrosel-texto">Vênus</p>
+                                <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><img src="../src/image/planetas/Earth.svg" class="carrosel-posicao">
+                        <a href="../planetas/terra.html">
+                            <div class="carrosel-card">
+                                <p class="carrosel-texto">Terra</p>
+                                <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><img src="../src/image/planetas/Jupiter.svg" class="carrosel-posicao">
+                        <a href="../planetas/jupiter.html">
+                            <div class="carrosel-card">
+                                <p class="carrosel-texto">Jupiter</p>
+                                <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><img src="../src/image/planetas/Mars.svg" class="carrosel-posicao">
+                        <a href="../planetas/marte.html">
+                            <div class="carrosel-card">
+                                <p class="carrosel-texto">Marte</p>
+                                <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><img src="../src/image/planetas/Neptune.svg" class="carrosel-posicao">
+                        <a href="../planetas/netuno.html">
+                            <div class="carrosel-card">
+                                <p class="carrosel-texto">Netuno</p>
+                                <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><img src="../src/image/planetas/Pluto.svg" class="carrosel-posicao">
+                        <a href="../planetas/plutao.html">
+                            <div class="carrosel-card">
+                                <p class="carrosel-texto">Plutão</p>
+                                <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><img src="../src/image/planetas/Saturn.svg"
+                            class="carrosel-posicao saturno">
+                        <a href="../planetas/saturno.html">
+                            <div class="carrosel-card">
+                                <p class="carrosel-texto">Saturno</p>
+                                <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide"><img src="../src/image/planetas/Uranus.svg" class="carrosel-posicao">
+                        <a href="../planetas/urano.html">
+                            <div class="carrosel-card">
+                                <p class="carrosel-texto">Urano</p>
+                                <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
+                            </div>
+                        </a>
+                    </div>
+                    ...
                 </div>
-                <div class="swiper-slide"><img src="../src/image/planetas/Mercury.svg" class="carrosel-posicao">
-                    <a href="../planetas/mercurio.html">
-                        <div class="carrosel-card">
-                            <p class="carrosel-texto">Mercúrio</p>
-                            <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide"><img src="../src/image/planetas/Venus.svg" class="carrosel-posicao">
-                    <a href="../planetas/venus.html">
-                        <div class="carrosel-card">
-                            <p class="carrosel-texto">Vênus</p>
-                            <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide"><img src="../src/image/planetas/Earth.svg" class="carrosel-posicao">
-                    <a href="../planetas/terra.html">
-                        <div class="carrosel-card">
-                            <p class="carrosel-texto">Terra</p>
-                            <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide"><img src="../src/image/planetas/Jupiter.svg" class="carrosel-posicao">
-                    <a href="../planetas/jupiter.html">
-                        <div class="carrosel-card">
-                            <p class="carrosel-texto">Jupiter</p>
-                            <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide"><img src="../src/image/planetas/Mars.svg" class="carrosel-posicao">
-                    <a href="../planetas/marte.html">
-                        <div class="carrosel-card">
-                            <p class="carrosel-texto">Marte</p>
-                            <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide"><img src="../src/image/planetas/Neptune.svg" class="carrosel-posicao">
-                    <a href="../planetas/netuno.html">
-                        <div class="carrosel-card">
-                            <p class="carrosel-texto">Netuno</p>
-                            <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide"><img src="../src/image/planetas/Pluto.svg" class="carrosel-posicao">
-                    <a href="../planetas/plutao.html">
-                        <div class="carrosel-card">
-                            <p class="carrosel-texto">Plutão</p>
-                            <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide"><img src="../src/image/planetas/Saturn.svg" class="carrosel-posicao saturno">
-                    <a href="../planetas/saturno.html">
-                        <div class="carrosel-card">
-                            <p class="carrosel-texto">Saturno</p>
-                            <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
-                        </div>
-                    </a>
-                </div>
-                <div class="swiper-slide"><img src="../src/image/planetas/Uranus.svg" class="carrosel-posicao">
-                    <a href="../planetas/urano.html">
-                        <div class="carrosel-card">
-                            <p class="carrosel-texto">Urano</p>
-                            <img src="../src/buttons/regular/Vector2.svg" alt="" class="card-seta">
-                        </div>
-                    </a>
-                </div>
-                ...
-            </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
 
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
-        </div>
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
     </main>
     <footer>
-        <div class="container-menu">
-            <ul class="menu">
-                <li class="lista-menu"><a href="#" class="menu-link"><img src="../src/buttons/regular/Home.svg"
-                            class="lista-imagem ativo">Início</a></li>
-                <li class="lista-menu"><a href="buscar.html" class="menu-link"><img
-                            src="../src/buttons/regular/Search.svg" class="lista-imagem"></a></li>
-                <li class="lista-menu"><a href="#" class="menu-link"><img src="../src/buttons/regular/Save.svg"
-                            class="lista-imagem"></a></li>
-                <li class="lista-menu"><a href="#" class="menu-link"><img src="../src/buttons/regular/Gallery.svg"
-                            class="lista-imagem"></a></li>
-
-            </ul>
-        </div>
+        <ul class="menu">
+            <li class="lista-menu">
+                <a href="#" class="menu-link">
+                    <img src="../src/buttons/regular/Home.svg" class="lista-imagem ativo">
+                    <p>Início</p>
+                </a>
+            </li>
+            <li class="lista-menu">
+                <a href="buscar.html" class="menu-link">
+                    <img src="../src/buttons/regular/Search.svg" class="lista-imagem">
+                </a>
+            </li>
+            <li class="lista-menu">
+                <a href="#" class="menu-link">
+                    <img src="../src/buttons/regular/Save.svg" class="lista-imagem">
+                </a>
+            </li>
+            <li class="lista-menu">
+                <a href="#" class="menu-link">
+                    <img src="../src/buttons/regular/Gallery.svg" class="lista-imagem">
+                </a>
+            </li>
+        </ul>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

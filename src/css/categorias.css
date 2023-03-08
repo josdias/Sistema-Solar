@@ -1,13 +1,14 @@
 .categorias{margin-top: 48px;
     padding-bottom: 48px;
 }
-.texto-categoria{
+
+.categoria-cabecalho{
     color: var(--branco);
     margin-left: 30px;
     padding-bottom: 24px;
 }
 
-.menu-categoria{
+.categoria-menu{
     display: flex;
     justify-content: space-around;
     padding: 0 20px;
@@ -21,7 +22,7 @@
     color: var(--branco);
 }
 
-.lista-categorias{
+.categorias-lista{
     width: 80px;
     height: 80px;
     display: flex;
@@ -29,7 +30,6 @@
     align-items: center;
     border-radius: 8px;
 }
-
 .categoria-imagem{
     padding-bottom: 8px;
 }
@@ -48,4 +48,15 @@
 
 .galaxias{
     background: var(--amarelo-gradiente);
+}
+
+@media screen and (max-width: 390px)  {
+    .categorias-lista{
+        width: 70px;
+        height: 70px;
+    }
+
+    .categorias-lista p {
+        font-size: 14px;
+    }
 }

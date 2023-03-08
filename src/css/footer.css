@@ -2,6 +2,8 @@ footer{
     position: sticky;
     bottom: 0;
     z-index: 2;
+
+    height: 70px;
 }
 
 .menu{
@@ -31,8 +33,4 @@ footer{
 .menu-link{
     font-size: 12px;
     color: var(--branco);
-}
-
-.container-menu{
-    height: 70px;
 }
